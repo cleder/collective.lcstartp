@@ -6,7 +6,7 @@
     purge="False">
 
     <configlet
-        title="Linkchecke start page"
+        title="Linkchecker start page"
         action_id="linkchecker_startpage_settings"
         appId="collective.lcstartp"
         category="Products"
