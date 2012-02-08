@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 import os
 
@@ -5,7 +6,7 @@ version = '0.1'
 
 setup(name='collective.lcstartp',
       version=version,
-      description="Linkcheckecker start page",
+      description="Linkchecker start page",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
@@ -17,7 +18,7 @@ setup(name='collective.lcstartp',
       keywords='',
       author='Christian Ledermann',
       author_email='christian.ledermann@gmail.com',
-      url='http://plone.org/products/collective.',
+      url='https://github.com/cleder/collective.lcstartp',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['collective'],
